@@ -1,17 +1,28 @@
+/* QARKINE FONT */
+@font-face {
+    font-family: 'Qarkine';
+    src: url(../assets/Qarkine.ttf) format('truetype');
+}
+
+
+
+/* PAGE BODY */
 body {
     background-color: #a150b3;
     margin: 0;
     overflow: hidden;
 }
 
+
+
+/* PAGE CONTAINER */
 .container {
     position: relative;
 }
 
-a {
-    color: white;
-}
 
+
+/* PAGE NAVIGATION LINKS */
 .page-nav {
     display: flex;
     flex-direction: column;
@@ -20,11 +31,6 @@ a {
     align-items: center;
     height: 75vh;
     justify-content: center;
-}
-
-@font-face {
-    font-family: 'Qarkine';
-    src: url(../assets/Qarkine.ttf) format('truetype');
 }
 
 .page-nav a {
@@ -48,6 +54,9 @@ a {
     text-shadow: 2px 2px 10px rgba(255, 255, 255, 1);
 }
 
+
+
+/* VERTICAL LINE 1 */
 .verticalline {
     position: fixed;
     left: 50px;
@@ -57,6 +66,9 @@ a {
     background-color: white;
 }
 
+
+
+/* LINKEDIN */
 .linkedin {
     position: absolute;
     left: -45px;
@@ -78,6 +90,14 @@ a {
     color: white;
 }
 
+.linkedin a:hover {
+    font-style: italic;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 1);
+}
+
+
+
+/* VERTICAL LINE 2 */
 .verticalline2 {
     position: absolute;
     left: 50px;
@@ -87,11 +107,9 @@ a {
     background-color: white;
 }
 
-.linkedin a:hover {
-    font-style: italic;
-    text-shadow: 2px 2px 10px rgba(255, 255, 255, 1);
-}
 
+
+/* BIO */
 .bio {
     position: relative;
     top: 1050px;
@@ -114,6 +132,10 @@ a {
     letter-spacing: 1px;
     font-size: 12px;
     font-weight:100;
+}
+
+.bio a {
+    color: white;
 }
 
 .bio a:hover {
