@@ -1,0 +1,41 @@
+
+
+.page-nav {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 150px;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'Creamy';
+    src: url(../assets/SuperCreamy-OGAPp.ttf) format('truetype'); 
+}
+
+.page-nav a {
+    margin: 30px;
+    text-decoration: none;
+    font-family: 'Creamy', sans-serif;
+    font-weight: 100;
+    
+}
+
+.page-nav a:visited {
+    color:black;
+}
+
+.workmargin {
+    margin-left: 100px;
+}
+
+.aboutmargin {
+    margin-left: 100px;
+}
+
+.contactmargin {
+    margin-left: 0px;
+}
