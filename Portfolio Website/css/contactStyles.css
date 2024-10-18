@@ -1,0 +1,27 @@
+/* QARKINE FONT */
+@font-face {
+    font-family: 'Qarkine';
+    src: url(../assets/Qarkine.ttf) format('truetype');
+}
+
+body {
+    background-color: #a150b3;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+}
+
+.headertest {
+    color: white;
+    text-align: left;
+}
+
+.headertest h1 {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-family: 'Qarkine', sans-serif;
+}
