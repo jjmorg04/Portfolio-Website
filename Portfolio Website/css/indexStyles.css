@@ -11,6 +11,8 @@ body {
     background-color: #a150b3;
     margin: 0;
     overflow: hidden;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
 }
 
 
@@ -29,7 +31,7 @@ body {
     color: white;
     font-size: 75px;
     align-items: center;
-    height: 75vh;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -62,7 +64,7 @@ body {
     left: 50px;
     top: 65px;
     width: 5px;
-    height: 11vh;
+    height: 115px;
     background-color: white;
 }
 
@@ -70,7 +72,7 @@ body {
 
 /* LINKEDIN */
 .linkedin {
-    position: absolute;
+    position: fixed;
     left: -45px;
     top: 250px;
     transform: rotate(-90deg);
@@ -99,11 +101,11 @@ body {
 
 /* VERTICAL LINE 2 */
 .verticalline2 {
-    position: absolute;
+    position: fixed;
     left: 50px;
     top: 385px;
     width: 5px;
-    height: 50vh;
+    height: 600px;
     background-color: white;
 }
 
@@ -111,10 +113,9 @@ body {
 
 /* BIO */
 .bio {
-    position: relative;
-    top: 1025px;
+    position: fixed;
     left: 50px;
-    
+    top: 1000px;
 }
 
 .bio h4 {

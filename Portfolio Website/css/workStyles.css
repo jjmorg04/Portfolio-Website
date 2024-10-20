@@ -5,13 +5,16 @@
 }
 
 body {
-    background-color: #a150b3;
+    background-color: #030303;
     margin: 0;
     overflow: hidden;
 }
 
-.container {
+.container2 {
+    display: flex;
     position: relative;
+    flex-direction: column;
+    align-items: center;
 }
 
 .headertest {
@@ -21,7 +24,10 @@ body {
 
 .headertest h1 {
     position: relative;
-    left: 20px;
     color: white;
     font-family: 'Qarkine', sans-serif;
+    margin-left: 50px;
+}
+
+.gif1 {
 }
