@@ -105,7 +105,7 @@ body {
     left: 50px;
     top: 385px;
     width: 5px;
-    height: 600px;
+    height: 650px;
     background-color: white;
 }
 
@@ -115,7 +115,7 @@ body {
 .bio {
     position: fixed;
     left: 50px;
-    top: 1000px;
+    top: 1075px;
 }
 
 .bio h4 {
