@@ -5,13 +5,16 @@
 }
 
 body {
-    background-color: #a150b3;
+    background-color: black;
     margin: 0;
     overflow: hidden;
 }
 
 .container {
-    position: relative;
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    align-items: center;
 }
 
 .headertest {
