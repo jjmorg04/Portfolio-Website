@@ -62,3 +62,10 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+.screenshotrow {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
