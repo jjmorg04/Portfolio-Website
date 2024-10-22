@@ -14,7 +14,7 @@ flex display of the parent container to column so that the elements stack vertic
 user is viewing from a window with a narrow width (such as a phone) rather than overlap! */
 
 /* QARKINE FONT */
-@font-face {
+@font-face {}
     font-family: 'Qarkine';
     src: url(../assets/Qarkine.ttf) format('truetype');
 }
