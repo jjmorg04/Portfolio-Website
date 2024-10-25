@@ -37,7 +37,7 @@ body {
 .container {
     height: 100vh; /* so container takes up entire page no matter what device user is on */
     width: 100vw; /* so container takes up entire page no matter what device user is on */
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex; /* puts left half and right half side by side */
     align-items: center;
     min-height: 750px; /* this may not be best practice but it makes it so that if the window height is small, the page will scroll */
@@ -45,7 +45,7 @@ body {
 
 .left-half {
     width: 40%; /* left half div will take up 50% */
-    border: 3px solid green;
+    /* border: 3px solid green; */
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* aligns all child elements to left side of container */
@@ -55,7 +55,7 @@ body {
 
 .right-half {
     width: 60%; /* right half div will take up remaining 50% of vw width */ 
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 }
 
 
@@ -65,9 +65,9 @@ body {
     flex-direction: column;
     color: white;
     font-size: 60px;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
-    padding: 0 50px 0 0;
+    /* padding: 0 50px 0 0; */
 }
 
 .page-nav a {
